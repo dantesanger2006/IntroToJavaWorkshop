@@ -9,15 +9,15 @@ public class MadlibsOfTheAmazon {
 		// If you find yourself having to cross a piranha-infested river, here's how to do it...
 		
 		// Get the user to enter an adjective
-
+		String adjective=JOptionPane.showInputDialog("can you give me a adjective");
 		// Get the user to enter a type of liquid
-
+		String liquid=JOptionPane.showInputDialog("");
 		// Get the user to enter a body part
-
+				String bodypart=JOptionPane.showInputDialog("give me a body part");
 		// Get the user to enter a verb
-
+		JOptionPane.showInputDialog("");
 		// Get the user to enter a place
-
+		JOptionPane.showInputDialog("");
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
 		// night. Piranhas are attracted to fresh [type of liquid] and will most
