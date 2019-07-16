@@ -11,20 +11,19 @@ public class MadlibsOfTheAmazon {
 		// Get the user to enter an adjective
 		String adjective=JOptionPane.showInputDialog("can you give me a adjective");
 		// Get the user to enter a type of liquid
-		String liquid=JOptionPane.showInputDialog("");
+		String liquid=JOptionPane.showInputDialog("can you geve me a liquid");
 		// Get the user to enter a body part
-				String bodypart=JOptionPane.showInputDialog("give me a body part");
+				String bodypart=JOptionPane.showInputDialog("can give me a body part");
 		// Get the user to enter a verb
-		JOptionPane.showInputDialog("");
+			String verb=JOptionPane.showInputDialog("can you give me a verb");
 		// Get the user to enter a place
-		JOptionPane.showInputDialog("");
-		// Fit the user's words into this sentence, and save it in a String:
-		// Piranhas are more [adjective] during the day, so cross the river at
-		// night. Piranhas are attracted to fresh [type of liquid] and will most
-		// likely take a bite out of your [body part] if you [verb]. Whatever
-		// you do, if you have an open wound, try to find another way to get
-		// back to the [place]. Good luck!
+		String place=JOptionPane.showInputDialog("can you give me a place");
 		
+		JOptionPane.showMessageDialog(null," Piranhas are more "+ adjective +" during the day, so cross the river at\n" + 
+				"		 night. Piranhas are attracted to fresh "+liquid +" and will most\n" + 
+				"		 likely take a bite out of your "+ bodypart +" if you "+ verb +". Whatever\n" + 
+				"		 you do, if you have an open wound, try to find another way to get\n" + 
+				"		 back to the "+ place +" . Good luck!");
 		// Make a pop-up for the final story. You can use \n to go to the next line
 		
 
