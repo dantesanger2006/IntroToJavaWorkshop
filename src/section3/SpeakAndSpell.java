@@ -34,7 +34,7 @@ public class SpeakAndSpell {
 					JOptionPane.showMessageDialog(null, "correct");
 				}else { 
 					JOptionPane.showMessageDialog(null, "wrong");
-	}
+				}}
 
 	static void speak(String words) {
 		try {
