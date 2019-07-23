@@ -61,7 +61,7 @@ public class DragonFight {
 		if (playerHealth<=0) {
 			
 //-- Tell the user that they lost
-		JOptionPane.showInternalMessageDialog(null,"you lost");
+		JOptionPane.showMessageDialog(null,"you lost");
 		}
 		// 14. Else if the dragon's health is less than or equal to 0
 		else if (dragonHealth<=0) { 
@@ -72,6 +72,7 @@ public class DragonFight {
 	   //  15.  Else
 			else {
 				JOptionPane.showMessageDialog(null,"dragonHealth:"+dragonHealth);
+				JOptionPane.showMessageDialog(null,"playerhealth"+playerHealth);
 			}
 			//-- Pop up a message that tells the their current health and the dragon's currently health (Bonus: Also display the amount of health that was lost for each player this round)
 		}	
